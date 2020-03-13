@@ -9,3 +9,11 @@
 1.git checkout 文件     用暂存区的文件来覆盖我们工作目录的文件
 2.git rm --cached 文件名    用于移除暂存区无用的文件
 *3.git reset --hard 提交id      用于恢复到某一个版本
+
+
+分支相关命令
+1.git branch    查看分支
+2.git  branch  分支名称      创建分支
+3.git checkout 分支名称     进行分支切换
+4.git merge  来源分支     合并分支  要注意谁合并谁  一般是主分支来合并其他分支
+5.git branch -d 分支名称  删除分支（分支被合并后才允许删除）（-D强制删除）
