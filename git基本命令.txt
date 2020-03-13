@@ -3,4 +3,9 @@
 3.git add  文件列表  追踪文件
 4.git commit -m ‘提交的信息’   向仓库中提交代码
 5.git log/reflog   查看提交记录
-6.测试修改/删除
+
+
+撤销
+1.git checkout 文件     用暂存区的文件来覆盖我们工作目录的文件
+2.git rm --cached 文件名    用于移除暂存区无用的文件
+*3.git reset --hard 提交id      用于恢复到某一个版本
