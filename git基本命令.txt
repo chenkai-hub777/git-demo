@@ -1,0 +1,6 @@
+1.git init   初始化git仓库
+2.git status  查看文件状态
+3.git add  文件列表  追踪文件
+4.git commit -m ‘提交的信息’   向仓库中提交代码
+5.git log/reflog   查看提交记录
+6.测试修改
